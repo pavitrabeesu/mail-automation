@@ -89,6 +89,171 @@ module.exports = require("next/dist/compiled/next-server/app-page.runtime.dev.js
 
 /***/ }),
 
+/***/ "crypto":
+/*!*************************!*\
+  !*** external "crypto" ***!
+  \*************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("crypto");
+
+/***/ }),
+
+/***/ "dns":
+/*!**********************!*\
+  !*** external "dns" ***!
+  \**********************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("dns");
+
+/***/ }),
+
+/***/ "events":
+/*!*************************!*\
+  !*** external "events" ***!
+  \*************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("events");
+
+/***/ }),
+
+/***/ "fs":
+/*!*********************!*\
+  !*** external "fs" ***!
+  \*********************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("fs");
+
+/***/ }),
+
+/***/ "http":
+/*!***********************!*\
+  !*** external "http" ***!
+  \***********************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("http");
+
+/***/ }),
+
+/***/ "http2":
+/*!************************!*\
+  !*** external "http2" ***!
+  \************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("http2");
+
+/***/ }),
+
+/***/ "net":
+/*!**********************!*\
+  !*** external "net" ***!
+  \**********************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("net");
+
+/***/ }),
+
+/***/ "os":
+/*!*********************!*\
+  !*** external "os" ***!
+  \*********************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("os");
+
+/***/ }),
+
+/***/ "path":
+/*!***********************!*\
+  !*** external "path" ***!
+  \***********************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("path");
+
+/***/ }),
+
+/***/ "process":
+/*!**************************!*\
+  !*** external "process" ***!
+  \**************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("process");
+
+/***/ }),
+
+/***/ "stream":
+/*!*************************!*\
+  !*** external "stream" ***!
+  \*************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("stream");
+
+/***/ }),
+
+/***/ "tls":
+/*!**********************!*\
+  !*** external "tls" ***!
+  \**********************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("tls");
+
+/***/ }),
+
+/***/ "url":
+/*!**********************!*\
+  !*** external "url" ***!
+  \**********************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("url");
+
+/***/ }),
+
+/***/ "util":
+/*!***********************!*\
+  !*** external "util" ***!
+  \***********************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("util");
+
+/***/ }),
+
+/***/ "zlib":
+/*!***********************!*\
+  !*** external "zlib" ***!
+  \***********************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("zlib");
+
+/***/ }),
+
 /***/ "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-app-loader.js?name=app%2Fpage&page=%2Fpage&appPaths=%2Fpage&pagePath=private-next-app-dir%2Fpage.js&appDir=C%3A%5CUsers%5CDELL%205400%5CDesktop%5CProject%5Capp&pageExtensions=tsx&pageExtensions=ts&pageExtensions=jsx&pageExtensions=js&rootDir=C%3A%5CUsers%5CDELL%205400%5CDesktop%5CProject&isDev=true&tsconfigPath=tsconfig.json&basePath=&assetPrefix=&nextConfigOutput=&preferredRegion=&middlewareConfig=e30%3D!":
 /*!*************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** ./node_modules/next/dist/build/webpack/loaders/next-app-loader.js?name=app%2Fpage&page=%2Fpage&appPaths=%2Fpage&pagePath=private-next-app-dir%2Fpage.js&appDir=C%3A%5CUsers%5CDELL%205400%5CDesktop%5CProject%5Capp&pageExtensions=tsx&pageExtensions=ts&pageExtensions=jsx&pageExtensions=js&rootDir=C%3A%5CUsers%5CDELL%205400%5CDesktop%5CProject&isDev=true&tsconfigPath=tsconfig.json&basePath=&assetPrefix=&nextConfigOutput=&preferredRegion=&middlewareConfig=e30%3D! ***!
@@ -137,7 +302,18 @@ eval("Promise.resolve(/*! import() eager */).then(__webpack_require__.t.bind(__w
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ RootLayout)\n/* harmony export */ });\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"(ssr)/./node_modules/next/dist/server/future/route-modules/app-page/vendored/ssr/react-jsx-dev-runtime.js\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _globals_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./globals.css */ \"(ssr)/./app/globals.css\");\n/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! next/link */ \"(ssr)/./node_modules/next/dist/api/link.js\");\n/* __next_internal_client_entry_do_not_use__ default auto */ \n\n\nfunction RootLayout({ children }) {\n    return /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"html\", {\n        lang: \"en\",\n        children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"body\", {\n            className: \"min-h-screen bg-slate-50 text-slate-900\",\n            children: [\n                /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"header\", {\n                    className: \"border-b bg-white\",\n                    children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                        className: \"mx-auto flex max-w-5xl items-center justify-between px-4 py-3\",\n                        children: [\n                            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(next_link__WEBPACK_IMPORTED_MODULE_2__[\"default\"], {\n                                href: \"/\",\n                                className: \"text-lg font-semibold tracking-tight\",\n                                children: \"Business Bulk Email\"\n                            }, void 0, false, {\n                                fileName: \"C:\\\\Users\\\\DELL 5400\\\\Desktop\\\\Project\\\\app\\\\layout.js\",\n                                lineNumber: 12,\n                                columnNumber: 13\n                            }, this),\n                            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"nav\", {\n                                className: \"flex gap-3\",\n                                children: [\n                                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(next_link__WEBPACK_IMPORTED_MODULE_2__[\"default\"], {\n                                        href: \"/login\",\n                                        className: \"rounded-md bg-slate-900 px-4 py-1.5 text-sm font-medium text-white hover:bg-slate-800\",\n                                        children: \"Login\"\n                                    }, void 0, false, {\n                                        fileName: \"C:\\\\Users\\\\DELL 5400\\\\Desktop\\\\Project\\\\app\\\\layout.js\",\n                                        lineNumber: 16,\n                                        columnNumber: 15\n                                    }, this),\n                                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(next_link__WEBPACK_IMPORTED_MODULE_2__[\"default\"], {\n                                        href: \"/register\",\n                                        className: \"rounded-md border border-slate-300 px-4 py-1.5 text-sm font-medium hover:bg-slate-100\",\n                                        children: \"Register\"\n                                    }, void 0, false, {\n                                        fileName: \"C:\\\\Users\\\\DELL 5400\\\\Desktop\\\\Project\\\\app\\\\layout.js\",\n                                        lineNumber: 22,\n                                        columnNumber: 15\n                                    }, this)\n                                ]\n                            }, void 0, true, {\n                                fileName: \"C:\\\\Users\\\\DELL 5400\\\\Desktop\\\\Project\\\\app\\\\layout.js\",\n                                lineNumber: 15,\n                                columnNumber: 13\n                            }, this)\n                        ]\n                    }, void 0, true, {\n                        fileName: \"C:\\\\Users\\\\DELL 5400\\\\Desktop\\\\Project\\\\app\\\\layout.js\",\n                        lineNumber: 11,\n                        columnNumber: 11\n                    }, this)\n                }, void 0, false, {\n                    fileName: \"C:\\\\Users\\\\DELL 5400\\\\Desktop\\\\Project\\\\app\\\\layout.js\",\n                    lineNumber: 10,\n                    columnNumber: 9\n                }, this),\n                /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"main\", {\n                    className: \"mx-auto max-w-5xl px-4 py-8\",\n                    children: children\n                }, void 0, false, {\n                    fileName: \"C:\\\\Users\\\\DELL 5400\\\\Desktop\\\\Project\\\\app\\\\layout.js\",\n                    lineNumber: 31,\n                    columnNumber: 9\n                }, this)\n            ]\n        }, void 0, true, {\n            fileName: \"C:\\\\Users\\\\DELL 5400\\\\Desktop\\\\Project\\\\app\\\\layout.js\",\n            lineNumber: 9,\n            columnNumber: 7\n        }, this)\n    }, void 0, false, {\n        fileName: \"C:\\\\Users\\\\DELL 5400\\\\Desktop\\\\Project\\\\app\\\\layout.js\",\n        lineNumber: 8,\n        columnNumber: 5\n    }, this);\n}\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiKHNzcikvLi9hcHAvbGF5b3V0LmpzIiwibWFwcGluZ3MiOiI7Ozs7Ozs7OztBQUV1QjtBQUNNO0FBRWQsU0FBU0MsV0FBVyxFQUFFQyxRQUFRLEVBQUU7SUFDN0MscUJBQ0UsOERBQUNDO1FBQUtDLE1BQUs7a0JBQ1QsNEVBQUNDO1lBQUtDLFdBQVU7OzhCQUNkLDhEQUFDQztvQkFBT0QsV0FBVTs4QkFDaEIsNEVBQUNFO3dCQUFJRixXQUFVOzswQ0FDYiw4REFBQ04saURBQUlBO2dDQUFDUyxNQUFLO2dDQUFJSCxXQUFVOzBDQUF1Qzs7Ozs7OzBDQUdoRSw4REFBQ0k7Z0NBQUlKLFdBQVU7O2tEQUNiLDhEQUFDTixpREFBSUE7d0NBQ0hTLE1BQUs7d0NBQ0xILFdBQVU7a0RBQ1g7Ozs7OztrREFHRCw4REFBQ04saURBQUlBO3dDQUNIUyxNQUFLO3dDQUNMSCxXQUFVO2tEQUNYOzs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs4QkFNUCw4REFBQ0s7b0JBQUtMLFdBQVU7OEJBQStCSjs7Ozs7Ozs7Ozs7Ozs7Ozs7QUFJdkQiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9idXNpbmVzcy1idWxrLWVtYWlsLXRvb2wvLi9hcHAvbGF5b3V0LmpzPzYwZTkiXSwic291cmNlc0NvbnRlbnQiOlsiXCJ1c2UgY2xpZW50XCI7XHJcblxyXG5pbXBvcnQgXCIuL2dsb2JhbHMuY3NzXCI7XHJcbmltcG9ydCBMaW5rIGZyb20gXCJuZXh0L2xpbmtcIjtcclxuXHJcbmV4cG9ydCBkZWZhdWx0IGZ1bmN0aW9uIFJvb3RMYXlvdXQoeyBjaGlsZHJlbiB9KSB7XHJcbiAgcmV0dXJuIChcclxuICAgIDxodG1sIGxhbmc9XCJlblwiPlxyXG4gICAgICA8Ym9keSBjbGFzc05hbWU9XCJtaW4taC1zY3JlZW4gYmctc2xhdGUtNTAgdGV4dC1zbGF0ZS05MDBcIj5cclxuICAgICAgICA8aGVhZGVyIGNsYXNzTmFtZT1cImJvcmRlci1iIGJnLXdoaXRlXCI+XHJcbiAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cIm14LWF1dG8gZmxleCBtYXgtdy01eGwgaXRlbXMtY2VudGVyIGp1c3RpZnktYmV0d2VlbiBweC00IHB5LTNcIj5cclxuICAgICAgICAgICAgPExpbmsgaHJlZj1cIi9cIiBjbGFzc05hbWU9XCJ0ZXh0LWxnIGZvbnQtc2VtaWJvbGQgdHJhY2tpbmctdGlnaHRcIj5cclxuICAgICAgICAgICAgICBCdXNpbmVzcyBCdWxrIEVtYWlsXHJcbiAgICAgICAgICAgIDwvTGluaz5cclxuICAgICAgICAgICAgPG5hdiBjbGFzc05hbWU9XCJmbGV4IGdhcC0zXCI+XHJcbiAgICAgICAgICAgICAgPExpbmtcclxuICAgICAgICAgICAgICAgIGhyZWY9XCIvbG9naW5cIlxyXG4gICAgICAgICAgICAgICAgY2xhc3NOYW1lPVwicm91bmRlZC1tZCBiZy1zbGF0ZS05MDAgcHgtNCBweS0xLjUgdGV4dC1zbSBmb250LW1lZGl1bSB0ZXh0LXdoaXRlIGhvdmVyOmJnLXNsYXRlLTgwMFwiXHJcbiAgICAgICAgICAgICAgPlxyXG4gICAgICAgICAgICAgICAgTG9naW5cclxuICAgICAgICAgICAgICA8L0xpbms+XHJcbiAgICAgICAgICAgICAgPExpbmtcclxuICAgICAgICAgICAgICAgIGhyZWY9XCIvcmVnaXN0ZXJcIlxyXG4gICAgICAgICAgICAgICAgY2xhc3NOYW1lPVwicm91bmRlZC1tZCBib3JkZXIgYm9yZGVyLXNsYXRlLTMwMCBweC00IHB5LTEuNSB0ZXh0LXNtIGZvbnQtbWVkaXVtIGhvdmVyOmJnLXNsYXRlLTEwMFwiXHJcbiAgICAgICAgICAgICAgPlxyXG4gICAgICAgICAgICAgICAgUmVnaXN0ZXJcclxuICAgICAgICAgICAgICA8L0xpbms+XHJcbiAgICAgICAgICAgIDwvbmF2PlxyXG4gICAgICAgICAgPC9kaXY+XHJcbiAgICAgICAgPC9oZWFkZXI+XHJcbiAgICAgICAgPG1haW4gY2xhc3NOYW1lPVwibXgtYXV0byBtYXgtdy01eGwgcHgtNCBweS04XCI+e2NoaWxkcmVufTwvbWFpbj5cclxuICAgICAgPC9ib2R5PlxyXG4gICAgPC9odG1sPlxyXG4gICk7XHJcbn1cclxuIl0sIm5hbWVzIjpbIkxpbmsiLCJSb290TGF5b3V0IiwiY2hpbGRyZW4iLCJodG1sIiwibGFuZyIsImJvZHkiLCJjbGFzc05hbWUiLCJoZWFkZXIiLCJkaXYiLCJocmVmIiwibmF2IiwibWFpbiJdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///(ssr)/./app/layout.js\n");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ RootLayout)\n/* harmony export */ });\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"(ssr)/./node_modules/next/dist/server/future/route-modules/app-page/vendored/ssr/react-jsx-dev-runtime.js\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ \"(ssr)/./node_modules/next/dist/server/future/route-modules/app-page/vendored/ssr/react.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var next_navigation__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! next/navigation */ \"(ssr)/./node_modules/next/dist/api/navigation.js\");\n/* harmony import */ var _globals_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./globals.css */ \"(ssr)/./app/globals.css\");\n/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! next/link */ \"(ssr)/./node_modules/next/dist/api/link.js\");\n/* harmony import */ var firebase_auth__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! firebase/auth */ \"(ssr)/./node_modules/firebase/auth/dist/index.mjs\");\n/* harmony import */ var firebase_firestore__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! firebase/firestore */ \"(ssr)/./node_modules/firebase/firestore/dist/index.mjs\");\n/* harmony import */ var _lib_firebase__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../lib/firebase */ \"(ssr)/./lib/firebase.js\");\n/* __next_internal_client_entry_do_not_use__ default auto */ \n\n\n\n\n\n\n\nfunction RootLayout({ children }) {\n    const router = (0,next_navigation__WEBPACK_IMPORTED_MODULE_2__.useRouter)();\n    const [user, setUser] = (0,react__WEBPACK_IMPORTED_MODULE_1__.useState)(null);\n    const [userName, setUserName] = (0,react__WEBPACK_IMPORTED_MODULE_1__.useState)(\"\");\n    (0,react__WEBPACK_IMPORTED_MODULE_1__.useEffect)(()=>{\n        (0,firebase_auth__WEBPACK_IMPORTED_MODULE_5__.setPersistence)(_lib_firebase__WEBPACK_IMPORTED_MODULE_7__.auth, firebase_auth__WEBPACK_IMPORTED_MODULE_5__.browserLocalPersistence).catch(()=>{});\n    }, []);\n    (0,react__WEBPACK_IMPORTED_MODULE_1__.useEffect)(()=>{\n        const unsub = (0,firebase_auth__WEBPACK_IMPORTED_MODULE_5__.onAuthStateChanged)(_lib_firebase__WEBPACK_IMPORTED_MODULE_7__.auth, async (u)=>{\n            setUser(u);\n            if (!u) {\n                setUserName(\"\");\n                return;\n            }\n            try {\n                const snap = await (0,firebase_firestore__WEBPACK_IMPORTED_MODULE_6__.getDoc)((0,firebase_firestore__WEBPACK_IMPORTED_MODULE_6__.doc)(_lib_firebase__WEBPACK_IMPORTED_MODULE_7__.db, \"users\", u.uid));\n                const data = snap.data();\n                setUserName(data && data.name || u.email || \"User\");\n            } catch  {\n                setUserName(u.email || \"User\");\n            }\n        });\n        return ()=>unsub();\n    }, []);\n    async function handleLogout() {\n        await (0,firebase_auth__WEBPACK_IMPORTED_MODULE_5__.signOut)(_lib_firebase__WEBPACK_IMPORTED_MODULE_7__.auth);\n        router.push(\"/login\");\n    }\n    return /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"html\", {\n        lang: \"en\",\n        children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"body\", {\n            className: \"min-h-screen bg-slate-50 text-slate-900\",\n            children: [\n                /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"header\", {\n                    className: \"border-b bg-white\",\n                    children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                        className: \"mx-auto flex max-w-5xl items-center justify-between px-4 py-3\",\n                        children: [\n                            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(next_link__WEBPACK_IMPORTED_MODULE_4__[\"default\"], {\n                                href: \"/\",\n                                className: \"text-lg font-semibold tracking-tight\",\n                                children: \"Business Bulk Email\"\n                            }, void 0, false, {\n                                fileName: \"C:\\\\Users\\\\DELL 5400\\\\Desktop\\\\Project\\\\app\\\\layout.js\",\n                                lineNumber: 48,\n                                columnNumber: 13\n                            }, this),\n                            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"nav\", {\n                                className: \"flex items-center gap-3\",\n                                children: [\n                                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(next_link__WEBPACK_IMPORTED_MODULE_4__[\"default\"], {\n                                        href: \"/admin\",\n                                        className: \"rounded-md border border-slate-300 px-4 py-1.5 text-sm font-medium hover:bg-slate-100\",\n                                        children: \"Admin\"\n                                    }, void 0, false, {\n                                        fileName: \"C:\\\\Users\\\\DELL 5400\\\\Desktop\\\\Project\\\\app\\\\layout.js\",\n                                        lineNumber: 52,\n                                        columnNumber: 15\n                                    }, this),\n                                    user ? /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.Fragment, {\n                                        children: [\n                                            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"span\", {\n                                                className: \"text-sm text-slate-600\",\n                                                children: [\n                                                    \"Welcome, \",\n                                                    userName\n                                                ]\n                                            }, void 0, true, {\n                                                fileName: \"C:\\\\Users\\\\DELL 5400\\\\Desktop\\\\Project\\\\app\\\\layout.js\",\n                                                lineNumber: 60,\n                                                columnNumber: 19\n                                            }, this),\n                                            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(next_link__WEBPACK_IMPORTED_MODULE_4__[\"default\"], {\n                                                href: \"/dashboard\",\n                                                className: \"rounded-md border border-slate-300 px-4 py-1.5 text-sm font-medium hover:bg-slate-100\",\n                                                children: \"Dashboard\"\n                                            }, void 0, false, {\n                                                fileName: \"C:\\\\Users\\\\DELL 5400\\\\Desktop\\\\Project\\\\app\\\\layout.js\",\n                                                lineNumber: 63,\n                                                columnNumber: 19\n                                            }, this),\n                                            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"button\", {\n                                                type: \"button\",\n                                                onClick: handleLogout,\n                                                className: \"rounded-md bg-slate-900 px-4 py-1.5 text-sm font-medium text-white hover:bg-slate-800\",\n                                                children: \"Logout\"\n                                            }, void 0, false, {\n                                                fileName: \"C:\\\\Users\\\\DELL 5400\\\\Desktop\\\\Project\\\\app\\\\layout.js\",\n                                                lineNumber: 69,\n                                                columnNumber: 19\n                                            }, this)\n                                        ]\n                                    }, void 0, true) : /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.Fragment, {\n                                        children: [\n                                            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(next_link__WEBPACK_IMPORTED_MODULE_4__[\"default\"], {\n                                                href: \"/login\",\n                                                className: \"rounded-md bg-slate-900 px-4 py-1.5 text-sm font-medium text-white hover:bg-slate-800\",\n                                                children: \"Login\"\n                                            }, void 0, false, {\n                                                fileName: \"C:\\\\Users\\\\DELL 5400\\\\Desktop\\\\Project\\\\app\\\\layout.js\",\n                                                lineNumber: 79,\n                                                columnNumber: 19\n                                            }, this),\n                                            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(next_link__WEBPACK_IMPORTED_MODULE_4__[\"default\"], {\n                                                href: \"/register\",\n                                                className: \"rounded-md border border-slate-300 px-4 py-1.5 text-sm font-medium hover:bg-slate-100\",\n                                                children: \"Register\"\n                                            }, void 0, false, {\n                                                fileName: \"C:\\\\Users\\\\DELL 5400\\\\Desktop\\\\Project\\\\app\\\\layout.js\",\n                                                lineNumber: 85,\n                                                columnNumber: 19\n                                            }, this)\n                                        ]\n                                    }, void 0, true)\n                                ]\n                            }, void 0, true, {\n                                fileName: \"C:\\\\Users\\\\DELL 5400\\\\Desktop\\\\Project\\\\app\\\\layout.js\",\n                                lineNumber: 51,\n                                columnNumber: 13\n                            }, this)\n                        ]\n                    }, void 0, true, {\n                        fileName: \"C:\\\\Users\\\\DELL 5400\\\\Desktop\\\\Project\\\\app\\\\layout.js\",\n                        lineNumber: 47,\n                        columnNumber: 11\n                    }, this)\n                }, void 0, false, {\n                    fileName: \"C:\\\\Users\\\\DELL 5400\\\\Desktop\\\\Project\\\\app\\\\layout.js\",\n                    lineNumber: 46,\n                    columnNumber: 9\n                }, this),\n                /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"main\", {\n                    className: \"mx-auto max-w-5xl px-4 py-8\",\n                    children: children\n                }, void 0, false, {\n                    fileName: \"C:\\\\Users\\\\DELL 5400\\\\Desktop\\\\Project\\\\app\\\\layout.js\",\n                    lineNumber: 96,\n                    columnNumber: 9\n                }, this)\n            ]\n        }, void 0, true, {\n            fileName: \"C:\\\\Users\\\\DELL 5400\\\\Desktop\\\\Project\\\\app\\\\layout.js\",\n            lineNumber: 45,\n            columnNumber: 7\n        }, this)\n    }, void 0, false, {\n        fileName: \"C:\\\\Users\\\\DELL 5400\\\\Desktop\\\\Project\\\\app\\\\layout.js\",\n        lineNumber: 44,\n        columnNumber: 5\n    }, this);\n}\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiKHNzcikvLi9hcHAvbGF5b3V0LmpzIiwibWFwcGluZ3MiOiI7Ozs7Ozs7Ozs7Ozs7OztBQUU0QztBQUNBO0FBQ3JCO0FBQ007QUFDd0U7QUFDcEQ7QUFDTjtBQUU1QixTQUFTWSxXQUFXLEVBQUVDLFFBQVEsRUFBRTtJQUM3QyxNQUFNQyxTQUFTWiwwREFBU0E7SUFDeEIsTUFBTSxDQUFDYSxNQUFNQyxRQUFRLEdBQUdmLCtDQUFRQSxDQUFDO0lBQ2pDLE1BQU0sQ0FBQ2dCLFVBQVVDLFlBQVksR0FBR2pCLCtDQUFRQSxDQUFDO0lBRXpDRCxnREFBU0EsQ0FBQztRQUNSTSw2REFBY0EsQ0FBQ0ksK0NBQUlBLEVBQUVILGtFQUF1QkEsRUFBRVksS0FBSyxDQUFDLEtBQU87SUFDN0QsR0FBRyxFQUFFO0lBRUxuQixnREFBU0EsQ0FBQztRQUNSLE1BQU1vQixRQUFRaEIsaUVBQWtCQSxDQUFDTSwrQ0FBSUEsRUFBRSxPQUFPVztZQUM1Q0wsUUFBUUs7WUFDUixJQUFJLENBQUNBLEdBQUc7Z0JBQ05ILFlBQVk7Z0JBQ1o7WUFDRjtZQUNBLElBQUk7Z0JBQ0YsTUFBTUksT0FBTyxNQUFNYiwwREFBTUEsQ0FBQ0QsdURBQUdBLENBQUNHLDZDQUFFQSxFQUFFLFNBQVNVLEVBQUVFLEdBQUc7Z0JBQ2hELE1BQU1DLE9BQU9GLEtBQUtFLElBQUk7Z0JBQ3RCTixZQUFZLFFBQVNNLEtBQUtDLElBQUksSUFBS0osRUFBRUssS0FBSyxJQUFJO1lBQ2hELEVBQUUsT0FBTTtnQkFDTlIsWUFBWUcsRUFBRUssS0FBSyxJQUFJO1lBQ3pCO1FBQ0Y7UUFDQSxPQUFPLElBQU1OO0lBQ2YsR0FBRyxFQUFFO0lBRUwsZUFBZU87UUFDYixNQUFNdEIsc0RBQU9BLENBQUNLLCtDQUFJQTtRQUNsQkksT0FBT2MsSUFBSSxDQUFDO0lBQ2Q7SUFFQSxxQkFDRSw4REFBQ0M7UUFBS0MsTUFBSztrQkFDVCw0RUFBQ0M7WUFBS0MsV0FBVTs7OEJBQ2QsOERBQUNDO29CQUFPRCxXQUFVOzhCQUNoQiw0RUFBQ0U7d0JBQUlGLFdBQVU7OzBDQUNiLDhEQUFDN0IsaURBQUlBO2dDQUFDZ0MsTUFBSztnQ0FBSUgsV0FBVTswQ0FBdUM7Ozs7OzswQ0FHaEUsOERBQUNJO2dDQUFJSixXQUFVOztrREFDYiw4REFBQzdCLGlEQUFJQTt3Q0FDSGdDLE1BQUs7d0NBQ0xILFdBQVU7a0RBQ1g7Ozs7OztvQ0FHQWpCLHFCQUNDOzswREFDRSw4REFBQ3NCO2dEQUFLTCxXQUFVOztvREFBeUI7b0RBQzdCZjs7Ozs7OzswREFFWiw4REFBQ2QsaURBQUlBO2dEQUNIZ0MsTUFBSztnREFDTEgsV0FBVTswREFDWDs7Ozs7OzBEQUdELDhEQUFDTTtnREFDQ0MsTUFBSztnREFDTEMsU0FBU2I7Z0RBQ1RLLFdBQVU7MERBQ1g7Ozs7Ozs7cUVBS0g7OzBEQUNFLDhEQUFDN0IsaURBQUlBO2dEQUNIZ0MsTUFBSztnREFDTEgsV0FBVTswREFDWDs7Ozs7OzBEQUdELDhEQUFDN0IsaURBQUlBO2dEQUNIZ0MsTUFBSztnREFDTEgsV0FBVTswREFDWDs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs4QkFRWCw4REFBQ1M7b0JBQUtULFdBQVU7OEJBQStCbkI7Ozs7Ozs7Ozs7Ozs7Ozs7O0FBSXZEIiwic291cmNlcyI6WyJ3ZWJwYWNrOi8vYnVzaW5lc3MtYnVsay1lbWFpbC10b29sLy4vYXBwL2xheW91dC5qcz82MGU5Il0sInNvdXJjZXNDb250ZW50IjpbIlwidXNlIGNsaWVudFwiO1xyXG5cclxuaW1wb3J0IHsgdXNlRWZmZWN0LCB1c2VTdGF0ZSB9IGZyb20gXCJyZWFjdFwiO1xyXG5pbXBvcnQgeyB1c2VSb3V0ZXIgfSBmcm9tIFwibmV4dC9uYXZpZ2F0aW9uXCI7XHJcbmltcG9ydCBcIi4vZ2xvYmFscy5jc3NcIjtcclxuaW1wb3J0IExpbmsgZnJvbSBcIm5leHQvbGlua1wiO1xyXG5pbXBvcnQgeyBvbkF1dGhTdGF0ZUNoYW5nZWQsIHNpZ25PdXQsIHNldFBlcnNpc3RlbmNlLCBicm93c2VyTG9jYWxQZXJzaXN0ZW5jZSB9IGZyb20gXCJmaXJlYmFzZS9hdXRoXCI7XHJcbmltcG9ydCB7IGRvYywgZ2V0RG9jIH0gZnJvbSBcImZpcmViYXNlL2ZpcmVzdG9yZVwiO1xyXG5pbXBvcnQgeyBhdXRoLCBkYiB9IGZyb20gXCIuLi9saWIvZmlyZWJhc2VcIjtcclxuXHJcbmV4cG9ydCBkZWZhdWx0IGZ1bmN0aW9uIFJvb3RMYXlvdXQoeyBjaGlsZHJlbiB9KSB7XHJcbiAgY29uc3Qgcm91dGVyID0gdXNlUm91dGVyKCk7XHJcbiAgY29uc3QgW3VzZXIsIHNldFVzZXJdID0gdXNlU3RhdGUobnVsbCk7XHJcbiAgY29uc3QgW3VzZXJOYW1lLCBzZXRVc2VyTmFtZV0gPSB1c2VTdGF0ZShcIlwiKTtcclxuXHJcbiAgdXNlRWZmZWN0KCgpID0+IHtcclxuICAgIHNldFBlcnNpc3RlbmNlKGF1dGgsIGJyb3dzZXJMb2NhbFBlcnNpc3RlbmNlKS5jYXRjaCgoKSA9PiB7fSk7XHJcbiAgfSwgW10pO1xyXG5cclxuICB1c2VFZmZlY3QoKCkgPT4ge1xyXG4gICAgY29uc3QgdW5zdWIgPSBvbkF1dGhTdGF0ZUNoYW5nZWQoYXV0aCwgYXN5bmMgKHUpID0+IHtcclxuICAgICAgc2V0VXNlcih1KTtcclxuICAgICAgaWYgKCF1KSB7XHJcbiAgICAgICAgc2V0VXNlck5hbWUoXCJcIik7XHJcbiAgICAgICAgcmV0dXJuO1xyXG4gICAgICB9XHJcbiAgICAgIHRyeSB7XHJcbiAgICAgICAgY29uc3Qgc25hcCA9IGF3YWl0IGdldERvYyhkb2MoZGIsIFwidXNlcnNcIiwgdS51aWQpKTtcclxuICAgICAgICBjb25zdCBkYXRhID0gc25hcC5kYXRhKCk7XHJcbiAgICAgICAgc2V0VXNlck5hbWUoKGRhdGEgJiYgZGF0YS5uYW1lKSB8fCB1LmVtYWlsIHx8IFwiVXNlclwiKTtcclxuICAgICAgfSBjYXRjaCB7XHJcbiAgICAgICAgc2V0VXNlck5hbWUodS5lbWFpbCB8fCBcIlVzZXJcIik7XHJcbiAgICAgIH1cclxuICAgIH0pO1xyXG4gICAgcmV0dXJuICgpID0+IHVuc3ViKCk7XHJcbiAgfSwgW10pO1xyXG5cclxuICBhc3luYyBmdW5jdGlvbiBoYW5kbGVMb2dvdXQoKSB7XHJcbiAgICBhd2FpdCBzaWduT3V0KGF1dGgpO1xyXG4gICAgcm91dGVyLnB1c2goXCIvbG9naW5cIik7XHJcbiAgfVxyXG5cclxuICByZXR1cm4gKFxyXG4gICAgPGh0bWwgbGFuZz1cImVuXCI+XHJcbiAgICAgIDxib2R5IGNsYXNzTmFtZT1cIm1pbi1oLXNjcmVlbiBiZy1zbGF0ZS01MCB0ZXh0LXNsYXRlLTkwMFwiPlxyXG4gICAgICAgIDxoZWFkZXIgY2xhc3NOYW1lPVwiYm9yZGVyLWIgYmctd2hpdGVcIj5cclxuICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPVwibXgtYXV0byBmbGV4IG1heC13LTV4bCBpdGVtcy1jZW50ZXIganVzdGlmeS1iZXR3ZWVuIHB4LTQgcHktM1wiPlxyXG4gICAgICAgICAgICA8TGluayBocmVmPVwiL1wiIGNsYXNzTmFtZT1cInRleHQtbGcgZm9udC1zZW1pYm9sZCB0cmFja2luZy10aWdodFwiPlxyXG4gICAgICAgICAgICAgIEJ1c2luZXNzIEJ1bGsgRW1haWxcclxuICAgICAgICAgICAgPC9MaW5rPlxyXG4gICAgICAgICAgICA8bmF2IGNsYXNzTmFtZT1cImZsZXggaXRlbXMtY2VudGVyIGdhcC0zXCI+XHJcbiAgICAgICAgICAgICAgPExpbmtcclxuICAgICAgICAgICAgICAgIGhyZWY9XCIvYWRtaW5cIlxyXG4gICAgICAgICAgICAgICAgY2xhc3NOYW1lPVwicm91bmRlZC1tZCBib3JkZXIgYm9yZGVyLXNsYXRlLTMwMCBweC00IHB5LTEuNSB0ZXh0LXNtIGZvbnQtbWVkaXVtIGhvdmVyOmJnLXNsYXRlLTEwMFwiXHJcbiAgICAgICAgICAgICAgPlxyXG4gICAgICAgICAgICAgICAgQWRtaW5cclxuICAgICAgICAgICAgICA8L0xpbms+XHJcbiAgICAgICAgICAgICAge3VzZXIgPyAoXHJcbiAgICAgICAgICAgICAgICA8PlxyXG4gICAgICAgICAgICAgICAgICA8c3BhbiBjbGFzc05hbWU9XCJ0ZXh0LXNtIHRleHQtc2xhdGUtNjAwXCI+XHJcbiAgICAgICAgICAgICAgICAgICAgV2VsY29tZSwge3VzZXJOYW1lfVxyXG4gICAgICAgICAgICAgICAgICA8L3NwYW4+XHJcbiAgICAgICAgICAgICAgICAgIDxMaW5rXHJcbiAgICAgICAgICAgICAgICAgICAgaHJlZj1cIi9kYXNoYm9hcmRcIlxyXG4gICAgICAgICAgICAgICAgICAgIGNsYXNzTmFtZT1cInJvdW5kZWQtbWQgYm9yZGVyIGJvcmRlci1zbGF0ZS0zMDAgcHgtNCBweS0xLjUgdGV4dC1zbSBmb250LW1lZGl1bSBob3ZlcjpiZy1zbGF0ZS0xMDBcIlxyXG4gICAgICAgICAgICAgICAgICA+XHJcbiAgICAgICAgICAgICAgICAgICAgRGFzaGJvYXJkXHJcbiAgICAgICAgICAgICAgICAgIDwvTGluaz5cclxuICAgICAgICAgICAgICAgICAgPGJ1dHRvblxyXG4gICAgICAgICAgICAgICAgICAgIHR5cGU9XCJidXR0b25cIlxyXG4gICAgICAgICAgICAgICAgICAgIG9uQ2xpY2s9e2hhbmRsZUxvZ291dH1cclxuICAgICAgICAgICAgICAgICAgICBjbGFzc05hbWU9XCJyb3VuZGVkLW1kIGJnLXNsYXRlLTkwMCBweC00IHB5LTEuNSB0ZXh0LXNtIGZvbnQtbWVkaXVtIHRleHQtd2hpdGUgaG92ZXI6Ymctc2xhdGUtODAwXCJcclxuICAgICAgICAgICAgICAgICAgPlxyXG4gICAgICAgICAgICAgICAgICAgIExvZ291dFxyXG4gICAgICAgICAgICAgICAgICA8L2J1dHRvbj5cclxuICAgICAgICAgICAgICAgIDwvPlxyXG4gICAgICAgICAgICAgICkgOiAoXHJcbiAgICAgICAgICAgICAgICA8PlxyXG4gICAgICAgICAgICAgICAgICA8TGlua1xyXG4gICAgICAgICAgICAgICAgICAgIGhyZWY9XCIvbG9naW5cIlxyXG4gICAgICAgICAgICAgICAgICAgIGNsYXNzTmFtZT1cInJvdW5kZWQtbWQgYmctc2xhdGUtOTAwIHB4LTQgcHktMS41IHRleHQtc20gZm9udC1tZWRpdW0gdGV4dC13aGl0ZSBob3ZlcjpiZy1zbGF0ZS04MDBcIlxyXG4gICAgICAgICAgICAgICAgICA+XHJcbiAgICAgICAgICAgICAgICAgICAgTG9naW5cclxuICAgICAgICAgICAgICAgICAgPC9MaW5rPlxyXG4gICAgICAgICAgICAgICAgICA8TGlua1xyXG4gICAgICAgICAgICAgICAgICAgIGhyZWY9XCIvcmVnaXN0ZXJcIlxyXG4gICAgICAgICAgICAgICAgICAgIGNsYXNzTmFtZT1cInJvdW5kZWQtbWQgYm9yZGVyIGJvcmRlci1zbGF0ZS0zMDAgcHgtNCBweS0xLjUgdGV4dC1zbSBmb250LW1lZGl1bSBob3ZlcjpiZy1zbGF0ZS0xMDBcIlxyXG4gICAgICAgICAgICAgICAgICA+XHJcbiAgICAgICAgICAgICAgICAgICAgUmVnaXN0ZXJcclxuICAgICAgICAgICAgICAgICAgPC9MaW5rPlxyXG4gICAgICAgICAgICAgICAgPC8+XHJcbiAgICAgICAgICAgICAgKX1cclxuICAgICAgICAgICAgPC9uYXY+XHJcbiAgICAgICAgICA8L2Rpdj5cclxuICAgICAgICA8L2hlYWRlcj5cclxuICAgICAgICA8bWFpbiBjbGFzc05hbWU9XCJteC1hdXRvIG1heC13LTV4bCBweC00IHB5LThcIj57Y2hpbGRyZW59PC9tYWluPlxyXG4gICAgICA8L2JvZHk+XHJcbiAgICA8L2h0bWw+XHJcbiAgKTtcclxufVxyXG4iXSwibmFtZXMiOlsidXNlRWZmZWN0IiwidXNlU3RhdGUiLCJ1c2VSb3V0ZXIiLCJMaW5rIiwib25BdXRoU3RhdGVDaGFuZ2VkIiwic2lnbk91dCIsInNldFBlcnNpc3RlbmNlIiwiYnJvd3NlckxvY2FsUGVyc2lzdGVuY2UiLCJkb2MiLCJnZXREb2MiLCJhdXRoIiwiZGIiLCJSb290TGF5b3V0IiwiY2hpbGRyZW4iLCJyb3V0ZXIiLCJ1c2VyIiwic2V0VXNlciIsInVzZXJOYW1lIiwic2V0VXNlck5hbWUiLCJjYXRjaCIsInVuc3ViIiwidSIsInNuYXAiLCJ1aWQiLCJkYXRhIiwibmFtZSIsImVtYWlsIiwiaGFuZGxlTG9nb3V0IiwicHVzaCIsImh0bWwiLCJsYW5nIiwiYm9keSIsImNsYXNzTmFtZSIsImhlYWRlciIsImRpdiIsImhyZWYiLCJuYXYiLCJzcGFuIiwiYnV0dG9uIiwidHlwZSIsIm9uQ2xpY2siLCJtYWluIl0sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///(ssr)/./app/layout.js\n");
+
+/***/ }),
+
+/***/ "(ssr)/./lib/firebase.js":
+/*!*************************!*\
+  !*** ./lib/firebase.js ***!
+  \*************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   auth: () => (/* binding */ auth),\n/* harmony export */   db: () => (/* binding */ db),\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var firebase_app__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! firebase/app */ \"(ssr)/./node_modules/firebase/app/dist/index.mjs\");\n/* harmony import */ var firebase_auth__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! firebase/auth */ \"(ssr)/./node_modules/firebase/auth/dist/index.mjs\");\n/* harmony import */ var firebase_firestore__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! firebase/firestore */ \"(ssr)/./node_modules/firebase/firestore/dist/index.mjs\");\n\n\n\nconst firebaseConfig = {\n    apiKey: \"AIzaSyC_yJyffOc16J5VAfV4TyOR0Ptp6Lywjx8\",\n    authDomain: \"project-824d3.firebaseapp.com\",\n    projectId: \"project-824d3\",\n    appId: \"1:868688006245:web:78f2ab67cfaaedfe338a8c\"\n};\nlet app;\nif (!(0,firebase_app__WEBPACK_IMPORTED_MODULE_0__.getApps)().length) {\n    app = (0,firebase_app__WEBPACK_IMPORTED_MODULE_0__.initializeApp)(firebaseConfig);\n} else {\n    app = (0,firebase_app__WEBPACK_IMPORTED_MODULE_0__.getApp)();\n}\nconst auth = (0,firebase_auth__WEBPACK_IMPORTED_MODULE_1__.getAuth)(app);\nconst db = (0,firebase_firestore__WEBPACK_IMPORTED_MODULE_2__.getFirestore)(app);\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (app);\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiKHNzcikvLi9saWIvZmlyZWJhc2UuanMiLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7O0FBQThEO0FBQ3RCO0FBQ1U7QUFFbEQsTUFBTUssaUJBQWlCO0lBQ3JCQyxRQUFRQyx5Q0FBd0M7SUFDaERHLFlBQVlILCtCQUE0QztJQUN4REssV0FBV0wsZUFBMkM7SUFDdERPLE9BQU9QLDJDQUF1QztBQUNoRDtBQUVBLElBQUlTO0FBRUosSUFBSSxDQUFDZixxREFBT0EsR0FBR2dCLE1BQU0sRUFBRTtJQUNyQkQsTUFBTWhCLDJEQUFhQSxDQUFDSztBQUN0QixPQUFPO0lBQ0xXLE1BQU1kLG9EQUFNQTtBQUNkO0FBRU8sTUFBTWdCLE9BQU9mLHNEQUFPQSxDQUFDYSxLQUFLO0FBQzFCLE1BQU1HLEtBQUtmLGdFQUFZQSxDQUFDWSxLQUFLO0FBRXBDLGlFQUFlQSxHQUFHQSxFQUFDIiwic291cmNlcyI6WyJ3ZWJwYWNrOi8vYnVzaW5lc3MtYnVsay1lbWFpbC10b29sLy4vbGliL2ZpcmViYXNlLmpzP2FiNDQiXSwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IHsgaW5pdGlhbGl6ZUFwcCwgZ2V0QXBwcywgZ2V0QXBwIH0gZnJvbSBcImZpcmViYXNlL2FwcFwiO1xyXG5pbXBvcnQgeyBnZXRBdXRoIH0gZnJvbSBcImZpcmViYXNlL2F1dGhcIjtcclxuaW1wb3J0IHsgZ2V0RmlyZXN0b3JlIH0gZnJvbSBcImZpcmViYXNlL2ZpcmVzdG9yZVwiO1xyXG5cclxuY29uc3QgZmlyZWJhc2VDb25maWcgPSB7XHJcbiAgYXBpS2V5OiBwcm9jZXNzLmVudi5ORVhUX1BVQkxJQ19GSVJFQkFTRV9BUElfS0VZLFxyXG4gIGF1dGhEb21haW46IHByb2Nlc3MuZW52Lk5FWFRfUFVCTElDX0ZJUkVCQVNFX0FVVEhfRE9NQUlOLFxyXG4gIHByb2plY3RJZDogcHJvY2Vzcy5lbnYuTkVYVF9QVUJMSUNfRklSRUJBU0VfUFJPSkVDVF9JRCxcclxuICBhcHBJZDogcHJvY2Vzcy5lbnYuTkVYVF9QVUJMSUNfRklSRUJBU0VfQVBQX0lEXHJcbn07XHJcblxyXG5sZXQgYXBwO1xyXG5cclxuaWYgKCFnZXRBcHBzKCkubGVuZ3RoKSB7XHJcbiAgYXBwID0gaW5pdGlhbGl6ZUFwcChmaXJlYmFzZUNvbmZpZyk7XHJcbn0gZWxzZSB7XHJcbiAgYXBwID0gZ2V0QXBwKCk7XHJcbn1cclxuXHJcbmV4cG9ydCBjb25zdCBhdXRoID0gZ2V0QXV0aChhcHApO1xyXG5leHBvcnQgY29uc3QgZGIgPSBnZXRGaXJlc3RvcmUoYXBwKTtcclxuXHJcbmV4cG9ydCBkZWZhdWx0IGFwcDtcclxuXHJcbiJdLCJuYW1lcyI6WyJpbml0aWFsaXplQXBwIiwiZ2V0QXBwcyIsImdldEFwcCIsImdldEF1dGgiLCJnZXRGaXJlc3RvcmUiLCJmaXJlYmFzZUNvbmZpZyIsImFwaUtleSIsInByb2Nlc3MiLCJlbnYiLCJORVhUX1BVQkxJQ19GSVJFQkFTRV9BUElfS0VZIiwiYXV0aERvbWFpbiIsIk5FWFRfUFVCTElDX0ZJUkVCQVNFX0FVVEhfRE9NQUlOIiwicHJvamVjdElkIiwiTkVYVF9QVUJMSUNfRklSRUJBU0VfUFJPSkVDVF9JRCIsImFwcElkIiwiTkVYVF9QVUJMSUNfRklSRUJBU0VfQVBQX0lEIiwiYXBwIiwibGVuZ3RoIiwiYXV0aCIsImRiIl0sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///(ssr)/./lib/firebase.js\n");
 
 /***/ }),
 
@@ -199,7 +375,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 var __webpack_require__ = require("../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, ["vendor-chunks/next","vendor-chunks/@swc"], () => (__webpack_exec__("(rsc)/./node_modules/next/dist/build/webpack/loaders/next-app-loader.js?name=app%2Fpage&page=%2Fpage&appPaths=%2Fpage&pagePath=private-next-app-dir%2Fpage.js&appDir=C%3A%5CUsers%5CDELL%205400%5CDesktop%5CProject%5Capp&pageExtensions=tsx&pageExtensions=ts&pageExtensions=jsx&pageExtensions=js&rootDir=C%3A%5CUsers%5CDELL%205400%5CDesktop%5CProject&isDev=true&tsconfigPath=tsconfig.json&basePath=&assetPrefix=&nextConfigOutput=&preferredRegion=&middlewareConfig=e30%3D!")));
+var __webpack_exports__ = __webpack_require__.X(0, ["vendor-chunks/@firebase","vendor-chunks/next","vendor-chunks/@grpc","vendor-chunks/firebase","vendor-chunks/protobufjs","vendor-chunks/long","vendor-chunks/@protobufjs","vendor-chunks/lodash.camelcase","vendor-chunks/tslib","vendor-chunks/idb","vendor-chunks/@swc"], () => (__webpack_exec__("(rsc)/./node_modules/next/dist/build/webpack/loaders/next-app-loader.js?name=app%2Fpage&page=%2Fpage&appPaths=%2Fpage&pagePath=private-next-app-dir%2Fpage.js&appDir=C%3A%5CUsers%5CDELL%205400%5CDesktop%5CProject%5Capp&pageExtensions=tsx&pageExtensions=ts&pageExtensions=jsx&pageExtensions=js&rootDir=C%3A%5CUsers%5CDELL%205400%5CDesktop%5CProject&isDev=true&tsconfigPath=tsconfig.json&basePath=&assetPrefix=&nextConfigOutput=&preferredRegion=&middlewareConfig=e30%3D!")));
 module.exports = __webpack_exports__;
 
 })();

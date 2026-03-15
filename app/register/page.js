@@ -9,6 +9,7 @@ import { auth, db } from "../../lib/firebase";
 export default function RegisterPage() {
   const router = useRouter();
   const [email, setEmail] = useState("");
+  const [name, setName] = useState("");
   const [password, setPassword] = useState("");
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState("");
@@ -24,7 +25,8 @@ export default function RegisterPage() {
 
       await setDoc(doc(db, "users", user.uid), {
         uid: user.uid,
-        email: user.email
+        email: user.email,
+        name: (name && name.trim()) || null
       });
 
       router.push("/dashboard");
@@ -43,6 +45,18 @@ export default function RegisterPage() {
       </p>
 
       <form onSubmit={handleSubmit} className="mt-6 space-y-4">
+        <div>
+          <label className="block text-sm font-medium text-slate-700">
+            Name (optional)
+          </label>
+          <input
+            type="text"
+            value={name}
+            onChange={(e) => setName(e.target.value)}
+            placeholder="Your name"
+            className="mt-1 w-full rounded-md border border-slate-300 px-3 py-2 text-sm focus:border-slate-900 focus:outline-none focus:ring-1 focus:ring-slate-900"
+          />
+        </div>
         <div>
           <label className="block text-sm font-medium text-slate-700">
             Email

@@ -1,0 +1,4 @@
+email,name,age,location
+john@example.com,John Doe,28,New York
+jane@example.com,Jane Smith,32,Los Angeles
+bob@example.com,Bob Wilson,,Chicago
